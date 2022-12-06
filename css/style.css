@@ -1,0 +1,284 @@
+/*FUENTES*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,700;1,800;1,900&display=swap');
+
+/* VARIABLES */
+:root{
+    --primaryColor: #f0101b;
+    --secondaryColor: #0c0c0c;
+    --blanco: #fafafc;
+    --titleSize: 40px;
+    --parrafoSize: 18px;
+    --fontFamily : 'Montserrat', sans-serif;
+}
+
+body{
+    font-family: var(--fontFamily);
+}
+/* HEADER */
+header{
+    width: 100%;
+    position: relative;
+    min-height: 80vh;
+    padding-top: 60px;
+    background: #252527;
+}
+
+header {
+    background: var(--secondaryColor);
+    padding: 30px 0;
+    z-index: 99;
+    width: 100%;
+    top:40px;
+
+}
+
+header nav ul li a{
+    color: #ffffff !important;
+    font-size: var(--parrafoSize);
+    font-weight: 600 !important;
+    transition: .4s;
+}
+header nav ul li a:hover{
+    color: var(--primaryColor) !important;
+}
+/*header*/
+
+ #HERO{
+    width: 100%;
+    position: relative;
+    background-color: #252527
+
+}
+#HERO .cont-left H3{
+    color: #ffffff;
+    font-size: 300px;
+    font-weight: 45px;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+ #HERO .cont-left{
+    padding-top: 300px;
+    position: relative;
+    z-index: 1;
+}
+ #HERO  h2{
+    color: #f3efef;
+    font-size: 40px;
+    font-weight: 200;
+    margin-top: 30px;
+}
+ #HERO .cont-left h1{
+    color: #f3efef;
+    font-size: 90px;
+    margin-top: 50PX;
+ } 
+#HERO .cont-left h3{
+    color: #f3efef;
+    font-size: 70px;
+}
+
+ #HERO .cont-right{
+    position: relative;
+    padding-top: 90px;
+    z-index: 0;
+}
+ #hero .cont-right img{
+    position: relative;
+    left: -110px;
+}
+/*main*/
+#perfil{
+    width: 100%;
+    position: relative;
+    background-color:#0c0c0c;
+    padding-top: 150px;
+    padding-bottom: 30px;
+}
+#perfil h4{
+    color:var(--primaryColor);
+    font-weight: 300;
+    margin-bottom: 70px ;
+    text-align: center;
+}
+#perfil h4 span{
+color:var(--blanco);
+}
+#perfil .cont-right  h2{
+    color:var(--primaryColor);
+    font-weight: 200;
+    margin: 45px;
+    font-size: 70px;    
+    margin-bottom: 100px;
+}
+#perfil H3{
+    color:var(--primaryColor);
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+#perfil p{
+    color:var(--primaryColor);
+    font-size: 20px;
+    margin-top: 70px;
+    margin-bottom: 150px;
+}
+#perfil button {
+    padding: 20px 12px;
+
+
+}
+
+#HABILIDADES {
+    width: 100%;
+    background-color: #252527;
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+#HABILIDADES h2{
+    color:#fff;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+#HALIDADADES h2 span {
+color:var(--primaryColor);
+}
+#HABILIDADES .card-estudios P{
+    color: #f3efef;
+    font-weight: 200;
+    margin-bottom: 50PX;
+    margin-top: 40PX;
+}
+#ESTUDIOS {
+    width: 100%;
+    background-color:#0c0c0c;
+    position: relative;
+    text-align: center;
+    margin-top: 50PX;
+    margin-bottom: 30PX;
+}
+
+
+#ESTUDIOS .card-estudios{
+    background-color: #313131;
+    border: 1px solid #fff;
+    padding-top: 160px;
+    padding-bottom: 20px;
+    color: #ffffff;
+} 
+#ESTUDIOS .card-estudios h4{
+    font-size: 18px;
+    margin-bottom: 35px
+}
+#ESTUDIOS IMG{
+    width: 100%;
+}
+#ESTUDIOS H2{
+    color: #f3efef;
+    font-size: 70px;
+    font-weight: 300;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#ESTUDIOS H3{
+    color:#f3efef;
+    font-size: 50PX;
+    font-weight: 200;
+    margin-top: 20PX;
+    margin: 30PX;
+}
+#ESTUDIOS H4{
+    color: #0c0c0c;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70PX;
+    margin: 40PX;
+
+}
+#ESTUDIOS P{
+    color: #fff;
+    font-size: 40PX;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    margin-top: 40PX;
+}
+
+ #ESTUDIOS .card-tour button{
+        padding: 12px 30px;
+        border: 1px solid rgb(0, 0, 0);
+        background: var(--primaryColor);
+        color: #fff;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+     #ESTUDIOS article:hover{
+        background-color: #ffffff;
+    }
+     #ESTUDIOS article:hover .card-tour{
+        background-color: #fff;
+        border: 1px solid var(--primaryColor);
+        color: #0c0c0c;
+    }
+     #ESTUDIOS article:hover .card-tour p{
+        background-color: #fff;
+    }
+    
+     #ESTUDIOS article:hover .card-tour button{
+        background: #000000;
+        color: var(--primaryColor);
+     }
+     #CONTACTOS{
+     width: 100%;
+     background-color: #0c0c0c;
+     position: relative;
+     text-align: center;
+     border-top: 20px;
+     margin-bottom: 50px;
+     }
+     #CONTACTOS H2{
+      color: #f3efef;
+      font-size:50px ;
+      font-weight: 400;
+      margin-top: 30px;
+      margin-bottom: 40px;
+     }
+     #CONTACTOS ul li{
+        color: #f3efef;
+        font-size: 40px;
+        margin-top: 20px;
+     }
+     #CONTACTOS article{
+    
+        border:4px solid #00f29e;
+        width: 50%;
+    }
+
+#GALERIA {
+    width: 100%;
+    background-color: #0c0c0c;
+    text-align:  center;
+
+}
+#GALERIA H2{
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 40PX;
+}
+#whatsapp{
+    position: fixed;
+    right: 0;
+    bottom: 30PX;
+    z-index: 700;
+}
+/* FOOTER */
+
+footer{
+    background-color: var(--secondaryColor);
+    padding: 40px;
+    color: #fff;
+    text-align: center;
+}
+
